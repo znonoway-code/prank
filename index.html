@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>April Fool Prank Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 April Fool Prank Generator 🎉</h1>
+    <p>Click the button to get a fun, safe prank idea!</p>
+
+    <select id="category">
+      <option value="all">All</option>
+      <option value="home">Home</option>
+      <option value="school">School</option>
+      <option value="online">Online</option>
+      <option value="family">Family</option>
+    </select>
+
+    <button onclick="generatePrank()">Generate</button>
+    <button onclick="copyPrank()">Copy</button>
+
+    <div class="prank-box" id="prankBox">Your prank will appear here...</div>
+
+    <footer>Be kind. Keep pranks fun & harmless! © 2025</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+      
